@@ -1,65 +1,80 @@
-# Skill: Client Updates
-**Stack:** Real Estate Agent Stack
-**Version:** 1.0.0
-**Trigger:** At every milestone in the buying or selling process.
+# SKILL: Client Updates
+# VERSION: 1.0.0
+# VERTICAL: Real Estate
+# STACK: Real Estate Agent Stack
+# PUBLISHER: AgentStack (agentstack.work)
+# LICENSE: Single-seat commercial
 
 ---
 
 ## Purpose
-Keep clients informed, calm, and confident throughout the transaction. Silence creates anxiety. Consistent updates build trust and referrals.
+Keep clients informed, calm, and confident at every milestone. Silence creates anxiety. Consistent, proactive updates build trust, reduce inbound questions, and generate referrals.
 
 ---
 
-## Update Schedule
+## When To Use
+- At every transaction milestone (listing live, offer received, under contract, clear to close, closed)
+- Weekly when the home is active on market
+- Any time there is a delay, complication, or unexpected development
+- Post-close check-in at 30 days
 
-### For Sellers
-| Milestone | Update Type |
-|-----------|-------------|
-| Listing goes live | Email + call — confirm live, share link |
-| First 7 days | Weekly showing report |
+---
+
+## Instructions
+
+### Seller Update Schedule
+| Milestone | Channel |
+|-----------|---------|
+| Listing goes live | Call + email with live link |
+| Weekly (active on market) | Email — showing report |
 | Price reduction discussion | Call first, then email summary |
 | Offer received | Call immediately |
-| Under contract | Email with full timeline |
+| Under contract | Email with full closing timeline |
 | Inspection complete | Call with summary |
-| Appraisal complete | Call with result |
-| Clear to close | Text + email — celebration tone |
+| Appraisal result | Call |
+| Clear to close | Text + email |
 | Closing day | In-person or call |
 
-### For Buyers
-| Milestone | Update Type |
-|-----------|-------------|
+### Buyer Update Schedule
+| Milestone | Channel |
+|-----------|---------|
 | Offer submitted | Text confirmation |
 | Offer accepted | Call immediately |
-| Inspection scheduled | Email with date/time/inspector |
-| Inspection results | Call with summary + next steps |
-| Appraisal ordered | Email |
+| Inspection scheduled | Email with details |
+| Inspection results | Call + next steps |
 | Loan approved | Call — celebrate |
 | Clear to close | Text + email |
 | Closing day | In-person |
 
 ---
 
-## Templates
+## Examples
 
 **Weekly Showing Report (Seller):**
-> Hi [Name], here's your weekly update for [address]:
-> - Showings this week: [X]
-> - Online views: [X]
-> - Feedback summary: [positive themes / concerns]
-> - My recommendation: [keep price / adjust / update photos]
-> Let me know if you'd like to chat — happy to jump on a call anytime.
+> Hi [Name], here's your update for [address] this week:
+> Showings: [X] | Online views: [X]
+> Feedback themes: [positive notes / concerns heard]
+> My recommendation: [keep price / adjust / refresh photos]
+> Happy to chat anytime — just say the word.
 
-**Under Contract (Seller):**
-> Great news — we're officially under contract on [address]! Here's what happens next:
-> - Inspection: [date]
-> - Appraisal window: [dates]
-> - Loan commitment deadline: [date]
-> - Closing: [date]
-> I'll keep you posted at every step. You're almost there!
+**Under Contract Email (Seller):**
+> You're under contract! Here's what happens next:
+> Inspection: [date] | Appraisal window: [dates] | Loan commitment: [date] | Closing: [date]
+> I'll update you at every step. You're almost there.
+
+**Clear to Close Text:**
+> CLEAR TO CLOSE! We are officially ready for closing on [date] at [time] at [location]. Bring your ID and be ready to sign. So proud of you — this is happening!
 
 ---
 
-## Notes
-- Call first for big news (offer accepted, problems found) — never text-first for emotional milestones
-- Every update should include a clear "what happens next" so clients never feel lost
-- If nothing is happening, still send a brief weekly check-in so clients know you're working
+## Tone Guidelines
+- Proactive, not reactive — never make the client ask first
+- Celebrate wins out loud — they need to feel the progress
+- Deliver bad news on a call, never by text
+- Every update ends with "what happens next" so clients never feel lost
+
+---
+
+## Trigger Handoffs
+- Closing complete → hand off to **07-review-requests.md** within 48 hours
+- Complication arises → escalate communication frequency, do not reduce it

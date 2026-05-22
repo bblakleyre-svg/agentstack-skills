@@ -1,63 +1,75 @@
-# Skill: Review Requests
-**Stack:** Real Estate Agent Stack
-**Version:** 1.0.0
-**Trigger:** Within 48 hours of closing, and again at 30 days post-close.
+# SKILL: Review Requests
+# VERSION: 1.0.0
+# VERTICAL: Real Estate
+# STACK: Real Estate Agent Stack
+# PUBLISHER: AgentStack (agentstack.work)
+# LICENSE: Single-seat commercial
 
 ---
 
 ## Purpose
-Systematically collect 5-star reviews on Google, Zillow, and Realtor.com to build social proof, improve search visibility, and generate referrals.
+Systematically collect 5-star reviews on Google, Zillow, and Realtor.com to build social proof, improve search visibility, and convert happy clients into active referral sources.
+
+---
+
+## When To Use
+- Within 48 hours of every closed transaction
+- At 30 days post-close if no review was left
+- When a client sends an unsolicited compliment via text or email
+- After exceptional service moments (not just closings)
 
 ---
 
 ## Instructions
 
-### Timing
-- **48 hours post-close:** First request — emotions are highest, experience is fresh
-- **30 days post-close:** Follow-up if no review left
-- **6 months post-close:** Personal check-in (not a review request — relationship maintenance)
+### Timing Sequence
+| Timing | Action |
+|--------|--------|
+| 48 hours post-close | First request — text + email |
+| 30 days post-close | Follow-up if no review left |
+| 6 months post-close | Personal check-in (relationship, not review ask) |
 
-### Platforms to Target (in priority order)
+### Priority Platforms
 1. Google Business Profile — highest SEO value
-2. Zillow — highest consumer trust in real estate
-3. Realtor.com — secondary but worth having
+2. Zillow — highest consumer trust in real estate searches
+3. Realtor.com — secondary, worth capturing
+
+### Referral Bridge
+Within 24 hours of a review being left, send the referral bridge message. Clients in gratitude mode are in referral mode.
 
 ---
 
-## Templates
+## Examples
 
-**48-Hour Post-Close Text:**
-> Hi [Name], congratulations again on [buying your new home / selling your home]! It was such a pleasure working with you. If you have 2 minutes, an honest review would mean the world to me — it helps other families find the right agent. Here's my Google link: [link] No pressure at all — just grateful for the opportunity!
+**48-Hour Text:**
+> Hi [Name], congratulations again — it was such a privilege to work with you! If you have 2 minutes, an honest Google review would mean the world to me and helps other families find a trustworthy agent. [Link] No pressure at all — just grateful for you.
 
-**48-Hour Post-Close Email:**
+**48-Hour Email:**
 > Subject: Congrats again, [Name] — one small favor?
 >
 > Hi [Name],
->
-> It has been such a privilege guiding you through this process. Watching you [get the keys to your new home / close on your sale] was a highlight of my year.
->
-> If you're willing, I'd be so grateful for a quick review on Google — it only takes 2 minutes and makes a huge difference for families searching for an agent they can trust.
->
-> [Google Review Link]
-> [Zillow Review Link]
->
-> Thank you for trusting me with one of the biggest decisions of your life. I'm always here if you need anything.
->
-> Warmly,
-> [Agent Name]
+> Working with you was a genuine highlight. If you're willing, a quick review on Google or Zillow would help more families find someone they can trust.
+> [Google Link] | [Zillow Link]
+> Thank you for letting me be part of this milestone.
+> [Agent]
 
-**30-Day Follow-Up (If No Review):**
-> Hi [Name], just checking in to make sure everything is going smoothly in your [new home / next chapter]! If you ever get a free moment, I'd still love a review — but more importantly, I hope you're loving it. Let me know if you need anything at all.
+**30-Day Follow-Up:**
+> Hi [Name], just checking in — hope you're loving the [new home / fresh start]! If you ever get a free moment, I'd still be grateful for a review. But more importantly — I hope everything is going well. Let me know if you need anything.
+
+**Referral Bridge (after review received):**
+> Thank you so much for that review, [Name] — it truly means a lot. If you ever know someone thinking about buying or selling, I'd love the chance to take care of them the way I took care of you.
 
 ---
 
-## Referral Bridge
-After leaving a review, many clients are in a referral mindset. Follow up within 24 hours:
-> Thank you so much for that review, [Name] — it truly means a lot. If you ever know anyone thinking about buying or selling, I'd love the chance to take care of them the way I took care of you.
+## Tone Guidelines
+- Grateful, never transactional — this is a relationship moment, not a sales ask
+- One ask at a time — text first, email if no action, never both simultaneously
+- Always provide direct links — never make them search for your profile
+- Respond publicly to every review within 24 hours
 
 ---
 
-## Notes
-- Never offer incentives for reviews — violates platform terms and NAR ethics rules
-- Always provide direct links — don't make them search for your profile
-- Respond to every review publicly within 24 hours — it shows professionalism to future clients
+## Trigger Handoffs
+- Review left → send referral bridge within 24 hours
+- Negative review left → respond publicly within 2 hours, call client directly
+- Referral generated → treat as a new hot lead, begin **01-lead-capture.md**

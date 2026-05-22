@@ -1,63 +1,84 @@
-# Skill: Follow-Up Sequences
-**Stack:** Real Estate Agent Stack
-**Version:** 1.0.0
-**Trigger:** After initial lead contact, after showings, after offers, and for long-term nurture.
+# SKILL: Follow-Up Sequences
+# VERSION: 1.0.0
+# VERTICAL: Real Estate
+# STACK: Real Estate Agent Stack
+# PUBLISHER: AgentStack (agentstack.work)
+# LICENSE: Single-seat commercial
 
 ---
 
 ## Purpose
-Systematic follow-up that converts leads into clients without being pushy. Different sequences for different stages of the pipeline.
+Convert leads into clients through systematic, value-first follow-up without being pushy. Different sequences for different pipeline stages ensure every lead is treated appropriately based on their timeline and readiness.
 
 ---
 
-## Sequences
+## When To Use
+- After first contact with a new lead
+- After a showing with no immediate offer
+- For long-term nurture of cold leads
+- After a deal falls through
 
-### New Lead Sequence (Hot)
+---
+
+## Instructions
+
+### New Lead Sequence — Hot (pre-approved, under 90 days)
 | Day | Action | Channel |
 |-----|--------|---------|
 | 0 | First touch response | Text + Email |
 | 1 | Follow-up if no reply | Call |
-| 3 | Value add (market report or listing) | Email |
+| 3 | Value add — market report or new listing | Email |
 | 7 | Check-in | Text |
 | 14 | Break-up message | Email |
 
-**Day 14 Break-Up Message:**
-> Hi [Name], I don't want to keep bothering you — I know life gets busy. If you're still thinking about [buying/selling], I'm here whenever you're ready. No pressure at all. Wishing you the best either way.
-
----
+### New Lead Sequence — Warm (90–180 days)
+| Day | Action | Channel |
+|-----|--------|---------|
+| 0 | First touch | Text |
+| 7 | Market insight | Email |
+| 30 | Check-in | Text |
+| 60 | Market update | Email |
+| 90 | Personal check-in | Call |
 
 ### Post-Showing Sequence
 | Timing | Action |
 |--------|--------|
-| 1 hour after | Text: "What did you think?" |
-| Same evening | Email with property details + comparables |
-| Day 2 | Call if no feedback received |
-| Day 5 | New listings matching their criteria |
+| 1 hour after | "What did you think?" text |
+| Same evening | Email with property details + comps |
+| Day 2 | Call if no feedback |
+| Day 5 | New matching listings |
 
-**Post-Showing Text:**
-> Hey [Name], great seeing you today at [address]! What were your thoughts? Happy to pull comps or answer any questions.
+### Long-Term Nurture (Cold / 6+ months)
+- Monthly market update email
+- Quarterly personal text
+- Annual home anniversary message (past clients)
 
 ---
 
-### Long-Term Nurture (Cold Leads)
-- Monthly: Market update email for their target area
-- Quarterly: Personal check-in text
-- Annually: Home anniversary message (for past clients)
+## Examples
+
+**Day 14 Break-Up Message:**
+> Hi [Name], I don't want to keep reaching out if the timing isn't right. If you're still thinking about [buying/selling], I'm here whenever you're ready — no pressure. Wishing you the best either way.
+
+**Post-Showing Text (1 hour after):**
+> Hey [Name], great seeing you at [address] today! What were your thoughts? Happy to pull comps or answer any questions.
 
 **Monthly Market Update Email:**
-> Subject: [Neighborhood] Market Update — [Month]
->
-> Hi [Name], here's a quick snapshot of what's happening in [area]:
-> - Median sale price: $[X]
-> - Avg days on market: [X]
-> - Homes sold this month: [X]
->
-> Thinking about making a move? Now might be a great time to talk.
-> [Agent]
+> Subject: [Neighborhood] Market — [Month] Snapshot
+> Hi [Name], quick update on [area]: median price is $[X], avg days on market is [X], and [X] homes sold this month. Thinking about making a move? Let's talk.
 
 ---
 
-## Notes
-- Never follow up more than once per day
-- Always lead with value — a stat, a listing, a tip — not just "checking in"
-- Remove leads from sequences immediately when they respond
+## Tone Guidelines
+- Warm, not salesy
+- Lead with value — a stat, a listing, a tip — never just "checking in"
+- Match the client's communication style — mirror their formality level
+- Short texts, longer emails — never swap the formats
+
+---
+
+## Trigger Handoffs
+- Lead responds → remove from sequence immediately, begin active pipeline handling
+- Lead books showing → hand off to **06-showing-schedule.md**
+- Lead submits offer → hand off to **04-offer-tracking.md**
+- Deal closes → hand off to **07-review-requests.md**
