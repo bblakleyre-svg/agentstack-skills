@@ -1,19 +1,28 @@
-# Skill: Lead Capture & Qualification
-**Stack:** Real Estate Agent Stack
-**Version:** 1.0.0
-**Trigger:** When a new lead comes in via form, call, referral, or social media.
+# SKILL: Lead Capture & Qualification
+# VERSION: 1.0.0
+# VERTICAL: Real Estate
+# STACK: Real Estate Agent Stack
+# PUBLISHER: AgentStack (agentstack.work)
+# LICENSE: Single-seat commercial
 
 ---
 
 ## Purpose
-Capture, qualify, and categorize inbound leads so no opportunity falls through the cracks. Every lead gets a response within 5 minutes and a qualification score within 24 hours.
+Capture, qualify, and categorize every inbound lead so no opportunity falls through the cracks. Every lead gets a response within 5 minutes and a qualification score within 24 hours.
+
+---
+
+## When To Use
+- New lead arrives via form, call, referral, social media, or sign call
+- Lead source is unknown and needs to be classified
+- Agent needs to determine pipeline priority for a new contact
 
 ---
 
 ## Instructions
 
 ### On New Lead Receipt
-1. Acknowledge immediately — respond within 5 minutes via the channel they used
+1. Respond within 5 minutes via the channel they used
 2. Ask the three qualification questions (see below)
 3. Score the lead: Hot / Warm / Cold
 4. Log to CRM with source, score, and next action date
@@ -30,23 +39,28 @@ Capture, qualify, and categorize inbound leads so no opportunity falls through t
 | Warm | Timeline 90–180 days OR pre-approval in progress |
 | Cold | No pre-approval + timeline over 6 months or undefined |
 
-### Response Templates
+---
 
-**Text/DM — First Touch:**
-> Hi [Name], this is [Agent] with [Brokerage]. Thanks for reaching out! I'd love to help. Quick question — are you looking to buy, sell, or both, and what's your timeline looking like?
+## Examples
+
+**Text — First Touch:**
+> Hi [Name], this is [Agent] with [Brokerage]. Thanks for reaching out! Quick question — are you looking to buy, sell, or both, and what's your timeline looking like?
 
 **Email — First Touch:**
 > Subject: Great to hear from you, [Name]
->
-> Hi [Name],
-> Thanks for reaching out. I specialize in [area] and would love to learn more about what you're looking for.
-> Can we set up a quick 15-minute call this week? Here's my calendar: [link]
-> Looking forward to connecting.
-> [Agent]
+> Hi [Name], thanks for reaching out. I specialize in [area] and would love to learn more about what you're looking for. Can we set up a quick 15-minute call this week? Here's my calendar: [link]
 
 ---
 
-## Notes
-- Never ask for budget on first contact — builds trust first
+## Tone Guidelines
+- Never ask for budget on first contact — build trust first
 - Hot leads get a phone call attempt within 5 minutes, not just text
-- Log source for every lead (Zillow, referral, social, sign call, etc.)
+- Match energy — if they texted casually, respond casually
+
+---
+
+## Trigger Handoffs
+- Hot lead qualified → begin **02-follow-up-sequences.md** Hot sequence immediately
+- Warm lead qualified → begin **02-follow-up-sequences.md** Warm sequence
+- Showing requested → hand off to **06-showing-schedule.md**
+- Listing inquiry → hand off to **03-listing-descriptions.md**
