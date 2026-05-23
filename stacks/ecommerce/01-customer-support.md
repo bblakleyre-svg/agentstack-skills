@@ -67,6 +67,16 @@ Handle inbound customer questions, complaints, and support tickets with speed an
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Ticket received | Drafted response | Plain text, ready to send |
+| Issue resolved | Resolution confirmation | Email |
+| Escalation needed | Internal handoff brief | Agent → human note |
+
+---
+
+
 ## Trigger Handoffs
 - Refund required → hand off to **08-returns-refunds.md**
 - Review mentioned → hand off to **07-review-management.md**

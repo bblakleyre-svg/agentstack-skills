@@ -89,6 +89,17 @@ Write and sequence emails that build customer relationships, drive repeat purcha
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Welcome trigger | Welcome email sequence | 3 emails, plain text |
+| Purchase complete | Post-purchase sequence | 2 emails |
+| Win-back trigger | Re-engagement sequence | 3 emails |
+| Campaign brief | Full campaign | Subject + preview + body + CTA |
+
+---
+
+
 ## Trigger Handoffs
 - Launch email sent → coordinate with **05-social-content.md** for same-day posts
 - High click but no purchase → trigger **02-abandoned-cart.md** sequence

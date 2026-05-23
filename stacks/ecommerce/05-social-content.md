@@ -79,6 +79,17 @@ Create platform-appropriate social media content that builds brand awareness, dr
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Product brief received | 30-day content calendar | Table format |
+| Calendar approved | Caption batch — all 30 days | Platform-native format |
+| UGC received | Repost caption | IG + FB + TikTok versions |
+| Sale/promo brief | Promotional post set | 3 variations per platform |
+
+---
+
+
 ## Trigger Handoffs
 - Product launch post → coordinate with **06-email-marketing.md** for same-day email
 - UGC comment or DM → hand off to **07-review-management.md**

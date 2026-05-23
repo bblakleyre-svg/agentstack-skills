@@ -77,6 +77,26 @@ Always offer the top of the hierarchy first.
 
 ---
 
+## Chargeback Flag
+If customer mentions dispute, credit card, chargeback, or bank:
+- Escalate to human immediately
+- Target response: under 1 hour
+- Do not process through standard returns flow
+- Note: "Chargeback risk — priority human handling"
+
+---
+
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Return requested | Return instructions email | Plain text |
+| Return received | Refund confirmation | Email |
+| Chargeback flagged | Human escalation brief | Internal note |
+| Dispute resolved | Resolution confirmation | Email to customer |
+
+---
+
+
 ## Trigger Handoffs
 - Return resolved positively → trigger review request via **07-review-management.md** in 14 days
 - Customer still frustrated after resolution → escalate to senior support or owner

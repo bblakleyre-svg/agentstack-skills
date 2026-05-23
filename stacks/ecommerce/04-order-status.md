@@ -71,6 +71,16 @@ Send these automatically at each stage:
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Order shipped | Shipping confirmation | Email + SMS |
+| Delivery delayed | Delay notification | Email, apologetic tone |
+| Order delivered | Delivery confirmation | Email + review request trigger |
+
+---
+
+
 ## Trigger Handoffs
 - Order confirmed lost → escalate to replacement or refund via **08-returns-refunds.md**
 - Customer angry about delay → hand off to **01-customer-support.md** LEAP framework

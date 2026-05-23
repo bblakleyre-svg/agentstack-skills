@@ -78,6 +78,17 @@ Set a reminder 24 hours before each deadline.
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Multiple offers received | Offer comparison matrix | Table format |
+| Best offer identified | Client recommendation memo | 1 page |
+| Offer accepted | Acceptance notification | Email to all parties |
+| Offer rejected | Rejection letter | Professional, warm |
+
+---
+
+
 ## Trigger Handoffs
 - Offer accepted → hand off to **05-client-updates.md** for full timeline communication
 - Inspection period begins → calendar reminder + **05-client-updates.md**

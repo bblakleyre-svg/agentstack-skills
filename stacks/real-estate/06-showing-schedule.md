@@ -69,6 +69,17 @@ Coordinate showings efficiently, confirm attendance, maximize serious buyer traf
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Showing confirmed | Confirmation email + SMS | Both formats |
+| Showing complete | Feedback request | SMS + email version |
+| No feedback received | Follow-up nudge | SMS, 24hr after showing |
+| Showing prep needed | Property prep checklist | Bullet list for seller |
+
+---
+
+
 ## Trigger Handoffs
 - Buyer wants to make offer after showing → hand off to **04-offer-tracking.md**
 - No feedback received after 48 hours → re-engage showing agent once

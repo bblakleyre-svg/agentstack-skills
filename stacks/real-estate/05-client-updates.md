@@ -75,6 +75,16 @@ Keep clients informed, calm, and confident at every milestone. Silence creates a
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Milestone hit | Status update email | Plain text |
+| Issue flagged | Problem + solution summary | Client-friendly language |
+| Timeline change | Revised timeline notice | Email + SMS version |
+
+---
+
+
 ## Trigger Handoffs
 - Closing complete → hand off to **07-review-requests.md** within 48 hours
 - Complication arises → escalate communication frequency, do not reduce it

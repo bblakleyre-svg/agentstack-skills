@@ -79,6 +79,17 @@ Systematically request, respond to, and leverage customer reviews to build socia
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Review request trigger | Review ask email | Plain text |
+| 5-star review received | Public response | Platform-native |
+| 3-star review received | Response draft | Human review before posting |
+| 1-star review received | Escalation brief | Human only — no auto-response |
+
+---
+
+
 ## Trigger Handoffs
 - Negative review with unresolved order issue → hand off to **08-returns-refunds.md**
 - Customer leaves glowing review → request referral or UGC within 24 hours

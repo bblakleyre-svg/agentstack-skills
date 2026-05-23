@@ -76,6 +76,17 @@ Re-engage shoppers who added items to cart but didn't complete purchase. A 3-tou
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Cart abandoned | Touch 1 reminder email | Plain text |
+| No response 24hr | Touch 2 social proof email | Plain text |
+| No response 72hr | Touch 3 discount email | Plain text + code |
+| No response 7 days | Touch 4 final email | Plain text |
+
+---
+
+
 ## Trigger Handoffs
 - Purchase completed → remove from sequence, trigger welcome/order confirmation
 - Customer replies with question → hand off to **01-customer-support.md**

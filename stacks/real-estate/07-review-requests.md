@@ -69,6 +69,17 @@ Within 24 hours of a review being left, send the referral bridge message. Client
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Deal closed | Review request email | Plain text, warm tone |
+| Review received (5 star) | Thank you + referral ask | Email |
+| Review received (3 star or below) | Service recovery email | Human review first |
+| Testimonial collected | Formatted testimonial | Social + website ready |
+
+---
+
+
 ## Trigger Handoffs
 - Review left → send referral bridge within 24 hours
 - Negative review left → respond publicly within 2 hours, call client directly

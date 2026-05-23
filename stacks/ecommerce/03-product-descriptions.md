@@ -69,6 +69,17 @@ Write product copy that converts browsers into buyers by leading with benefits, 
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Product specs received | Full product description | 150-200 words |
+| Description approved | SEO meta description | Under 160 chars |
+| Meta approved | Amazon listing copy | Title + bullets + description |
+| Full set complete | Social caption batch | IG + FB + Pinterest versions |
+
+---
+
+
 ## Trigger Handoffs
 - Product launched → notify email list, hand off to **06-email-marketing.md**
 - Reviews come in → incorporate social proof, hand off to **07-review-management.md**

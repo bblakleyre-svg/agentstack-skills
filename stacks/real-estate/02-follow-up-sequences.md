@@ -77,6 +77,18 @@ Convert leads into clients through systematic, value-first follow-up without bei
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Hot lead touch 1 | SMS message | Under 160 chars |
+| Hot lead touch 2 | Property match email | Plain text + list |
+| Warm lead touch 1 | Market insight email | Plain text |
+| Post-showing touch 1 | Feedback request SMS | Under 160 chars |
+| Offer lost touch 1 | Recovery call script | Bullet points |
+
+---
+
+
 ## Trigger Handoffs
 - Lead responds → remove from sequence immediately, begin active pipeline handling
 - Lead books showing → hand off to **06-showing-schedule.md**

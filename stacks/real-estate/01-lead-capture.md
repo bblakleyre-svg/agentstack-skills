@@ -59,6 +59,26 @@ Capture, qualify, and categorize every inbound lead so no opportunity falls thro
 
 ---
 
+## Distressed Seller Flag
+If lead mentions failed deals, fired previous agent,
+urgent frustration, or multiple price reductions:
+- Override motivation score → automatic HOT
+- Route directly to agent call — bypass all sequences
+- Note: "Handle with care — relationship repair needed"
+
+---
+
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Lead scored HOT | Personalized intro email | Plain text, ready to send |
+| Lead scored WARM | Market insight email | Plain text |
+| Lead scored COLD | Welcome + value email | Plain text |
+| Distressed seller flagged | Agent briefing note | Internal memo |
+
+---
+
+
 ## Trigger Handoffs
 - Hot lead qualified → begin **02-follow-up-sequences.md** Hot sequence immediately
 - Warm lead qualified → begin **02-follow-up-sequences.md** Warm sequence

@@ -60,6 +60,17 @@ Write compelling, accurate, MLS-compliant property descriptions that attract qua
 
 ---
 
+## Outputs
+| Trigger | Output | Format |
+|---|---|---|
+| Property specs received | MLS description | 250 words, formatted |
+| MLS copy approved | Social caption | Instagram + Facebook versions |
+| Social caption done | Email blast | Subject line + body |
+| Full set complete | Listing one-pager | Print-ready summary |
+
+---
+
+
 ## Trigger Handoffs
 - Listing live → hand off to **05-client-updates.md** for seller update
 - Offer received → hand off to **04-offer-tracking.md**
